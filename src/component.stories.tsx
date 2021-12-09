@@ -1,15 +1,20 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { Component, ComponentProps } from './component';
+import { StringCapitalize, StringCapitalizeProps } from './component';
 
 export default {
-  title: 'Test',
-  component: Component,
+  title: 'String Capitalize',
+  component: StringCapitalize,
   parameters: {
-    componentSubtitle: 'Component Test',
+    componentSubtitle:
+      'Capitalizes the first character of a given string. Option to capitalize all words.',
   },
 } as Meta;
 
-export const StoryComponent: Story<ComponentProps> = (args) => (
-  <Component {...args} text="Hello World" />
+export const FirstWord: Story<StringCapitalizeProps> = (args) => (
+  <StringCapitalize {...args} str="lorem ipsum dolor sit amet" />
+);
+
+export const AllWords: Story<StringCapitalizeProps> = (args) => (
+  <StringCapitalize {...args} str="lorem ipsum dolor sit amet" allWords />
 );

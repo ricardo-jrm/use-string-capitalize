@@ -1,3 +1,3 @@
-export { Component } from './component';
+export { StringCapitalize } from './component';
 
-export { useHook } from './hook';
+export { useStringCapitalize } from './hook';

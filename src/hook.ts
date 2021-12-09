@@ -1,11 +1,8 @@
-import { Dispatch, SetStateAction, useState } from 'react';
+import { useMemo } from 'react';
+import { stringCapitalize } from '@ricardo-jrm/string-capitalize';
 
 /**
- * Exported Hook
+ * Capitalizes the first character of a given string. Option to capitalize all words.
  */
-export const useHook = <T>(
-  initialValue: T,
-): (T | Dispatch<SetStateAction<T>>)[] => {
-  const [state, stateSet] = useState<T>(initialValue);
-  return [state, stateSet];
-};
+export const useStringCapitalize = (str: string, allWords?: boolean) =>
+  useMemo(() => stringCapitalize(str, allWords), [str, allWords]);

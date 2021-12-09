@@ -1033,7 +1033,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.12.10":
+"@babel/preset-react@^7.12.10", "@babel/preset-react@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-react/-/preset-react-7.16.0.tgz#f71d3e8dff5218478011df037fad52660ee6d82a"
   integrity sha512-d31IFW2bLRB28uL1WoElyro8RH5l6531XfxMtCeCmp6RVAF1uTfxxUA0LH1tXl+psZdwfmIbwoG4U5VwgbhtLw==
@@ -2012,6 +2012,11 @@
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
+
+"@ricardo-jrm/string-capitalize@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ricardo-jrm/string-capitalize/-/string-capitalize-1.0.1.tgz#186084b35acfb331609582eaedde435fd5fecbc3"
+  integrity sha512-lhs7tqnZ5wtEZ4W3Jf64PuYsNyAd8q/GUUg2B7u2q36DRvmO6Gi8uNLh6eXNlzJEzNOlm8cNoPW6jIJAmsohxA==
 
 "@semantic-release/commit-analyzer@^9.0.2":
   version "9.0.2"

@@ -1,18 +1,23 @@
 import React from 'react';
+import { useStringCapitalize } from '.';
 
 /**
- * Exported component
+ * Capitalizes the first character of a given string. Option to capitalize all words.
  */
-export const Component = ({ text }: ComponentProps) => (
-  <div data-testid="test-component">{text}</div>
+export const StringCapitalize = ({ str, allWords }: StringCapitalizeProps) => (
+  <span data-testid="str-cap">{useStringCapitalize(str, allWords)}</span>
 );
 
 /**
- * Exported component props
+ * StringCapitalize props
  */
-export interface ComponentProps {
+export interface StringCapitalizeProps {
   /**
-   * Prop
+   * String to transform
    */
-  text: string;
+  str: string;
+  /**
+   * Option to transform all words
+   */
+  allWords?: boolean;
 }
