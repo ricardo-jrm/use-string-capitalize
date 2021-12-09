@@ -33,8 +33,20 @@ yarn add @ricardo-jrm/use-string-capitalize
 
 ### <b>Usage</b>
 
-```ts
+Capitalizes the first character of a given string. Option to capitalize all words.
 
+```ts
+import { useStringCapitalize } from '@ricardo-jrm/nova';
+
+export const StringCapitalize = ({ str: string, allWords?: boolean }) => (
+  <span>{useStringCapitalize(str, allWords)}</span>
+);
+
+<StringCapitalize str="lorem ipsum dolor sit amet" />
+-> <span>Lorem ipsum dolor sit amet</span>
+
+<StringCapitalize str="lorem ipsum dolor sit amet" allWords />
+-> <span>Lorem Ipsum Dolor Sit Amet</span>
 ```
 
 <br />
