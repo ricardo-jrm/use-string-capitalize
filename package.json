@@ -1,8 +1,8 @@
 {
   "name": "@ricardo-jrm/use-string-capitalize",
   "description": "Capitalize strings with React",
-  "version": "0.0.0-development",
-  "main": "out/index.min.js",
+  "version": "0.0.1-development",
+  "main": "out/index.js",
   "types": "out/index.d.ts",
   "private": false,
   "repository": {
