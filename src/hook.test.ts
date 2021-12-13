@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react-hooks';
 import { useStringCapitalize } from '.';
 
-describe('test example hook', () => {
+describe('test useStringCapitalize hook', () => {
   it('should capitalize a string', () => {
     const { result } = renderHook(() =>
       useStringCapitalize('lorem ipsum dolor sit amet'),
