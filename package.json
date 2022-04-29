@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/use-string-capitalize",
+  "name": "@ricardojrmcom/use-string-capitalize",
   "description": "Capitalize strings with React",
-  "version": "0.0.3-development",
+  "version": "0.0.4-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/use-string-capitalize.git"
+    "url": "https://github.com/ricardojrmcom/use-string-capitalize.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/use-string-capitalize#readme",
+  "homepage": "https://github.com/ricardojrmcom/use-string-capitalize#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/use-string-capitalize/issues"
+    "url": "https://github.com/ricardojrmcom/use-string-capitalize/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -91,7 +91,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@ricardo-jrm/string-capitalize": "^2.0.1",
+    "@ricardojrmcom/string-capitalize": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

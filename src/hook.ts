@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { stringCapitalize } from '@ricardo-jrm/string-capitalize';
+import { stringCapitalize } from '@ricardojrmcom/string-capitalize';
 
 /**
  * Capitalizes the first character of a given string. Option to capitalize all words.
